@@ -6,8 +6,8 @@ import HotelListScreen from './HotelListScreen'; // Crear este componente
 
 const AppNavigator = createStackNavigator(
   {
-    HotelList: { screen: HotelListScreen },
-    // Agrega otras pantallas aquí si es necesario
+    HotelList: { screen: HotelListScreen }
+    //agregar pantallas
   },
   {
     initialRouteName: 'HotelList',
