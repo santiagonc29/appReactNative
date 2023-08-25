@@ -6,7 +6,6 @@ const hotels = [
     { id: 3, name: 'Hotel D', stars: 3 },
     { id: 4, name: 'Hotel E', stars: 5 },
     { id: 5, name: 'Hotel F', stars: 2 },
-    // Agrega más hoteles aquí
   ];
   
   const getAllHotels = (req, res) => {
