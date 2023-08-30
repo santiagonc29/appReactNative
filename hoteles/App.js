@@ -1,7 +1,7 @@
 import { StatusBar } from 'expo-status-bar';
 import { SafeAreaView, FlatList, StyleSheet, Text, View } from 'react-native';
 import React, { useState, useEffect } from 'react';
-import AppNavigator from './appNavigator'; // Asegúrate de que la ruta sea correcta
+import AppNavigator from './appNavigator';
 
 export default function App() {
   return <AppNavigator />;
